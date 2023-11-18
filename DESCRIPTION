@@ -1,0 +1,27 @@
+Package: TR2PATH
+Type: Package
+Title: Reconstruction of mechanism centric regulatory network.
+Version: 0.2.8
+Authors@R: c(person(given = "Sukanya",     family = "Panja",  email = "sp1388@shp.rutgers.edu",   role = c("aut", "cre")),
+             person(given = "Vamshi",      family = "Saggurthi",email = "vamshi.saggurthi@rutgers.edu",   role = "ctb"),
+             person(given = "Antonina",    family = "Mitrofanova",email = "antonina.mitrofanova@rutgers.edu",   role = "ctb")
+             )
+Maintainer: Sukanya Panja <sp1388@shp.rutgers.edu>
+Description: Reconstruction of mechanism-centric regulatory network connecting molecular pathways with potential upstream transcriptional regulatory programs,TR2PATH
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: viper, doParallel, foreach, parallel, reshape2, stats, utils,
+        psych, rCAT, Rcpp
+Suggests: knitr, BiocStyle, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+ByteCompile: true
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
+LinkingTo: Rcpp
+SystemRequirements: GNU make
+NeedsCompilation: yes
+Author: Sukanya Panja [aut, cre],
+  Vamshi Saggurthi [ctb],
+  Antonina Mitrofanova [ctb]

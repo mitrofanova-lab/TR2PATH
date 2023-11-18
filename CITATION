@@ -1,0 +1,29 @@
+citHeader("Please, cite the following reference:")
+
+citEntry(entry="article",
+	author = c(person("Sukanya","Panja"),
+	           person(c("Mihai","Ioan"),"Truica"),
+	           person("Christina","Yu"),
+	           person("Vamshi", "Saggurthi"),
+	           person(c("Michael","W"),"Craige"),
+	           person("Katie","Whitehead"),
+	           person(c("Mayra","V"), "Tuiche"),
+		   person("Aymen","Al-Saadi"),
+		   person("Riddhi","Vyas"),
+		   person("Shridar","Ganesan"),
+		   person("Suril","Gohel"),
+		   person("Frederick","Coffman"),
+		   person(c("James","S"),"Parrott),
+		   person("Songhua","Quan"),
+		   person("Shantenu","Jha"),
+		   person("Issac","Kim"),
+		   person("Edward","Schaeffer"),
+		   person("Vishal","Kothari"),
+		   person("Sarki","Abdulkadir"),
+		   person("Antonina", "Mitrofanova")),
+	title = "Mechanism-centric network-based approach identifies NME2 and MYC programs as markers of resistance to Enzalutamide in CRPC patients",
+
+	textVersion = 
+	"Panja, S., Yu, C., Saggurthi, V., Craige, M.W., Whitehead, K., et al. Mechanism-centric network-based approach identifies NME2 and MYC programs as markers of resistance to Enzalutamide in CRPC patients."
+)
+
