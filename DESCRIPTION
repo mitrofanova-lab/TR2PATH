@@ -6,7 +6,7 @@ Authors@R: c(person(given = "Sukanya",     family = "Panja",  email = "sp1388@sh
              person(given = "Vamshi",      family = "Saggurthi",email = "vamshi.saggurthi@rutgers.edu",   role = "ctb"),
              person(given = "Antonina",    family = "Mitrofanova",email = "antonina.mitrofanova@rutgers.edu",   role = "ctb")
              )
-Maintainer: Sukanya Panja <sp1388@shp.rutgers.edu>
+Maintainer: mitrofanova-lab <amitrofa@shp.rutgers.edu>
 Description: Reconstruction of mechanism-centric regulatory network connecting molecular pathways with potential upstream transcriptional regulatory programs,TR2PATH
 License: file LICENSE
 Encoding: UTF-8
