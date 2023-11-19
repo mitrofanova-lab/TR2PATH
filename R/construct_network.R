@@ -89,9 +89,12 @@ generateNetwork<- function(NESPathway,TRActivity,sampling=FALSE) {
   #' @export
   #'
   #' @examples
+  #'  \dontrun{
   #'  TestPathData <- TR2PATH::TestNESPathwayData
   #'  TestTRData<-TR2PATH::TestTRActivityData
   #' reconstNetwork(TestPathData,TestTRData,fdr.cutoff=0.05)
+  #' }
+  #'
   reconstNetwork <- function(NESPathway,TRActivity,fdr.cutoff=0.05,bootstrap=FALSE,bootstrap_count=10) {
     message("performing tr2path network reconstruction...")
 

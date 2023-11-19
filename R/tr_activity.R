@@ -13,7 +13,10 @@ library(viper)
 #' @export
 #'
 #' @examples
+#'  \dontrun{
 #' computeTRActivity(exprMat,interactome)
+#' }
+#'
 computeTRActivity <- function(exprMat,interactome){
   message("computing TR activity...")
   #transpose expression matrix

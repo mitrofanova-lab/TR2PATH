@@ -10,7 +10,10 @@
 #' @return A matrix of activity level for each TR across samples
 #'
 #' @examples
+#'  \dontrun{
 #' computeTRActivity(exprMat,interactome)
+#' }
+#' 
 computePLS <- function(subNetwrks,TRActivity,pathwayActivity,weightedNetwork){
   anglesandCorrelationperPathwayList <- list()
   ## identify each subnetwork

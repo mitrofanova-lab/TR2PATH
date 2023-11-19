@@ -49,8 +49,11 @@ ss_pathway_activity<-function(scaledExprMat,pathwayGenelist,nperms=10){
 #' @return Matrix of activity level of each pathway from userdefined genelist across samples
 #'
 #' @examples
+#'  \dontrun{
 #' scaledExprMat <- scale(t(exprMat))
 #' ssPathActivityC2(scaledExprMat)
+#' }
+#'
 ssPathActivity <- function(scaledExprMat,pathwayGenelist,nperms) {
   message('computing NES for given pathways....')
   normalized_samples <- scaledExprMat

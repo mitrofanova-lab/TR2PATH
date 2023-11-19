@@ -12,7 +12,7 @@ License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.0)
-Imports: viper, doParallel, foreach, parallel, reshape2, stats, utils,
+Imports: viper, doParallel, dplyr, foreach, parallel, reshape2, stats, utils,
         psych, rCAT, Rcpp
 Suggests: knitr, BiocStyle, testthat (>= 3.0.0)
 VignetteBuilder: knitr
