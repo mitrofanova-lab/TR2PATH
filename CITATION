@@ -21,9 +21,9 @@ citEntry(entry="article",
 		   person("Vishal","Kothari"),
 		   person("Sarki","Abdulkadir"),
 		   person("Antonina", "Mitrofanova")),
-	title = "Mechanism-centric network-based approach identifies NME2 and MYC programs as markers of resistance to Enzalutamide in CRPC patients",
+	title = "Mechanism-centric regulatory network identifies NME2 and MYC programs as markers of Enzalutamide resistance in CRPC",
 
 	textVersion = 
-	"Panja, S., Yu, C., Saggurthi, V., Craige, M.W., Whitehead, K., et al. Mechanism-centric network-based approach identifies NME2 and MYC programs as markers of resistance to Enzalutamide in CRPC patients."
+	"Panja, S., Truica,M.I., Yu, C., Saggurthi, V., Craige, M.W., Whitehead, K., et al. Mechanism-centric regulatory network identifies NME2 and MYC programs as markers of Enzalutamide resistance in CRPC."
 )
 

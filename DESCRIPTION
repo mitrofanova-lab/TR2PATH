@@ -1,13 +1,13 @@
 Package: TR2PATH
 Type: Package
-Title: Reconstruction of mechanism centric regulatory network.
+Title: Mechanism-centric regulatory network identifies NME2 and MYC programs as markers of Enzalutamide resistance in CRPC
 Version: 0.2.8
 Authors@R: c(person(given = "Sukanya",     family = "Panja",  email = "sp1388@shp.rutgers.edu",   role = c("aut", "cre")),
              person(given = "Vamshi",      family = "Saggurthi",email = "vamshi.saggurthi@rutgers.edu",   role = "ctb"),
              person(given = "Antonina",    family = "Mitrofanova",email = "antonina.mitrofanova@rutgers.edu",   role = "ctb")
              )
 Maintainer: mitrofanova-lab <amitrofa@shp.rutgers.edu>
-Description: Reconstruction of mechanism-centric regulatory network connecting molecular pathways with potential upstream transcriptional regulatory programs,TR2PATH
+Description: Mechanism-centric regulatory network identifies NME2 and MYC programs as markers of Enzalutamide resistance in CRPC
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
