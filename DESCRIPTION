@@ -1,7 +1,7 @@
 Package: TR2PATH
 Type: Package
 Title: Mechanism-centric regulatory network identifies NME2 and MYC programs as markers of Enzalutamide resistance in CRPC
-Version: 0.2.8
+Version: 0.2.9
 Authors@R: c(person(given = "Sukanya",     family = "Panja",  email = "sp1388@shp.rutgers.edu",   role = c("aut", "cre")),
              person(given = "Vamshi",      family = "Saggurthi",email = "vamshi.saggurthi@rutgers.edu",   role = "ctb"),
              person(given = "Antonina",    family = "Mitrofanova",email = "antonina.mitrofanova@rutgers.edu",   role = "ctb")
@@ -13,7 +13,7 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5.0)
 Imports: viper, doParallel, dplyr, foreach, parallel, reshape2, stats, utils,
-        psych, rCAT, Rcpp
+        psych, Rcpp
 Suggests: knitr, BiocStyle, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 ByteCompile: true

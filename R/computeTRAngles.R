@@ -80,7 +80,7 @@ computeAngle <- function(circleofCorrelationvValues){
   }
   
   rownames(thetaupdated) = rownames(theta)
-  angle= rCAT::rad2deg(thetaupdated) ## need to return this 
+  angle= rad2deg(thetaupdated) ## need to return this 
   angle_for_TRS = as.matrix(angle[1:a-1,])
   anglewithPathway = angle-angle[a,]
   anglewithPathway = anglewithPathway[-a,]
@@ -90,3 +90,15 @@ computeAngle <- function(circleofCorrelationvValues){
   angleslist = angles_matrix
   return(angleslist)
 }
+
+######################################################################
+#radians to degrees and degrees to radians
+######################################################################
+# @title Radians to Degrees
+# @description 
+# Calculates radians from degrees or degrees from radians
+# @author Justin Moat. J.Moat@kew.org
+# @param rad number in radians
+# @return number
+
+rad2deg <- function(rad) {(rad * 180) / (pi)}
